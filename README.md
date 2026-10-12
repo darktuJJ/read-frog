@@ -13,13 +13,13 @@
   </a>
 </p>
 
-An open-source AI-powered language learning extension for browsers.<br/>
-Supports immersive translation, article analysis, multiple AI models, and more.<br/>
-Master languages effortlessly and deeply with AI, right in your browser.
+一款开源的 AI 语言学习浏览器扩展。<br/>
+支持沉浸式翻译、文章分析、多种 AI 模型等功能。<br/>
+借助 AI，直接在浏览器中轻松而深入地掌握语言。
 
 [![English][english-shield]](./README.md) [![简体中文][chinese-shield]](./readmes/README.zh-CN.md) [![繁體中文][traditional-chinese-shield]](./readmes/README.zh-TW.md) [![日本語][japanese-shield]](./readmes/README.ja.md) [![한국어][korean-shield]](./readmes/README.ko.md) [![Español][spanish-shield]](./readmes/README.es.md) [![Русский][russian-shield]](./readmes/README.ru.md) [![Türkçe][turkish-shield]](./readmes/README.tr.md) [![Tiếng Việt][vietnamese-shield]](./readmes/README.vi.md)
 
-[Official Website](https://readfrog.app) · [Tutorial](https://www.readfrog.app/docs) · [Changelog][github-release-link] · [Blog](https://www.readfrog.app/blog)
+[官网](https://readfrog.app) · [教程](https://www.readfrog.app/docs) · [更新日志][github-release-link] · [博客](https://www.readfrog.app/blog)
 
 <!-- SHIELD GROUP -->
 
@@ -40,67 +40,75 @@ Master languages effortlessly and deeply with AI, right in your browser.
 </div>
 
 <details>
-<summary><kbd>Table of contents</kbd></summary>
+<summary><kbd>目录</kbd></summary>
 
-#### TOC
+#### 目录
 
-- [📺 Demo](#-demo)
-- [👋🏻 Getting Started \& Join Our Community](#-getting-started--join-our-community)
-  - [Download](#download)
-  - [Community](#community)
-- [✨ Features](#-features)
-  - [🔄 Bilingual / Translation Only](#-bilingual--translation-only)
-  - [✨ Selection Translation](#-selection-translation)
-  - [🧠 Context-Aware Translation](#-context-aware-translation)
-  - [🎬 Subtitle Translation](#-subtitle-translation)
-  - [🔊 Text-to-Speech (TTS)](#-text-to-speech-tts)
-  - [📦 Batch Requests](#-batch-requests)
-  - [🤖 20+ AI Providers](#-20-ai-providers)
-- [🤝 Contribute](#-contribute)
-  - [Contribute Code](#contribute-code)
-- [📜 Commercial License Grant](#-commercial-license-grant)
-- [❤️ Sponsors](#️-sponsors)
+- [📺 演示](#-demo)
+- [👋🏻 快速上手 \& 加入社区](#-getting-started--join-our-community)
+  - [下载](#download)
+  - [社区](#community)
+- [✨ 功能特性](#-features)
+  - [🔄 双语对照 / 仅译文](#-bilingual--translation-only)
+  - [✨ 划词翻译](#-selection-translation)
+  - [🧠 上下文感知翻译](#-context-aware-translation)
+  - [🎬 字幕翻译](#-subtitle-translation)
+  - [🔊 文字转语音（TTS）](#-text-to-speech-tts)
+  - [📦 批量请求](#-batch-requests)
+  - [🤖 20+ AI 服务商](#-20-ai-providers)
+- [🤝 参与贡献](#-contribute)
+  - [贡献代码](#contribute-code)
+- [📜 商业许可授权](#-commercial-license-grant)
+- [❤️ 赞助者](#️-sponsors)
 
 <br/>
 
 </details>
 
-## 📺 Demo
+<a id="-demo"></a>
+
+## 📺 演示
 
 <div align="center">
-  <img src="assets/node-translation-demo.gif" width="38%" alt="Read Frog Popup Interface" />
-  <img src="assets/page-translation-demo.gif" width="60%" alt="Read Frog Translation Interface" />
+  <img src="assets/node-translation-demo.gif" width="38%" alt="Read Frog 弹窗界面" />
+  <img src="assets/page-translation-demo.gif" width="60%" alt="Read Frog 翻译界面" />
 </div>
 
-## 👋🏻 Getting Started & Join Our Community
+<a id="-getting-started--join-our-community"></a>
 
-Read Frog's vision is to provide an easy-to-use, intelligent, and personalized language learning experience for language learners of all levels. This has become possible in the AI era, but there are few products on the market that meet this demand. Therefore, we decided to take matters into our own hands and ultimately make the world no longer reliant on human language instructors.
+## 👋🏻 快速上手 & 加入社区
 
-Whether you are a user or a developer, Read Frog will be an important part of your journey toward this vision. Please be aware that Read Frog is currently under active development, and feedback is welcome for any [issues][issues-link] encountered.
+Read Frog（陪读蛙）的愿景是为各个水平的语言学习者提供易用、智能且个性化的语言学习体验。在 AI 时代，这已成为可能，但市面上能满足这一需求的产品寥寥无几。因此，我们决定亲自动手，最终让世界不再依赖人类语言教师。
 
-### Download
+无论你是用户还是开发者，Read Frog 都将成为你迈向这一愿景旅程中的重要一环。请注意，Read Frog 目前仍在积极开发中，遇到任何[问题][issues-link]都欢迎反馈。
 
-| Browser | Version                                                                | Download                                                          |
+<a id="download"></a>
+
+### 下载
+
+| 浏览器 | 版本                                                                   | 下载                                                              |
 | ------- | ---------------------------------------------------------------------- | ----------------------------------------------------------------- |
-| Chrome  | [![Chrome Version badge][chrome-version-shield]][chrome-store-link]    | [Chrome Web Store][chrome-store-link] or [中国镜像][crxsoso-link] |
+| Chrome  | [![Chrome Version badge][chrome-version-shield]][chrome-store-link]    | [Chrome 应用商店][chrome-store-link] 或 [中国镜像][crxsoso-link] |
 | Edge    | [![Edge Version badge][edge-version-shield]][edge-store-link]          | [Microsoft Edge Addons][edge-store-link]                          |
 | Firefox | [![Firefox Version badge][firefox-version-shield]][firefox-store-link] | [Firefox Add-ons][firefox-store-link]                             |
 
-### Community
+<a id="community"></a>
 
-| [![Discord badge][discord-shield-badge]][discord-link] | In Discord ask questions, and connect with developers.                                 |
+### 社区
+
+| [![Discord badge][discord-shield-badge]][discord-link] | 在 Discord 中提问，并与开发者交流。                                                    |
 | :----------------------------------------------------- | :------------------------------------------------------------------------------------- |
-| [![WeChat badge][wechat-shield-badge]][wechat-link]    | If you are in mainland China, you can add the WeChat account to join the WeChat group. |
+| [![WeChat badge][wechat-shield-badge]][wechat-link]    | 如果你在中国大陆，可以添加微信账号加入微信群。                                         |
 
 > \[!IMPORTANT]
 >
-> **⭐️ Star Us**, You will receive all release notifications from GitHub without any delay \~
+> **⭐️ 给我们点个 Star**，你就能第一时间收到 GitHub 上的所有版本发布通知 \~
 
 [![Star Read Frog on GitHub][image-star]][github-star-link]
 
 <details>
 <summary>
-  <kbd>Star History</kbd>
+  <kbd>Star 历史</kbd>
 </summary>
 
 <a href="https://www.star-history.com/?type=timeline&repos=mengxi-ream%2Fread-frog">
@@ -119,15 +127,17 @@ Whether you are a user or a developer, Read Frog will be an important part of yo
 
 </div>
 
-## ✨ Features
+<a id="-features"></a>
 
-Transform your everyday web reading into an immersive language learning journey with Read Frog's powerful features.
+## ✨ 功能特性
 
-### 🪄 [Custom AI Actions][docs-tutorial]
+借助 Read Frog 的强大功能，把日常网页阅读变成一场沉浸式的语言学习之旅。
 
-Turn selected text into reusable AI tools that match the way you read and learn. Define your own prompts and structured output fields, choose a provider, model, and icon, then run the action directly from the selection toolbar for dictionary lookups, rewriting, summaries, explanations, or any workflow you design.
+### 🪄 [自定义 AI 操作][docs-tutorial]
 
-Start with the built-in **Dictionary** and **Improve Writing** templates, or build an action from scratch. Structured results can also be mapped and saved to Notebase for later study.
+把选中的文本变成可复用的 AI 工具，契合你的阅读和学习方式。你可以定义自己的提示词和结构化输出字段，选择服务商、模型和图标，然后直接从划词工具栏运行该操作，用于查词、改写、摘要、解释，或你设计的任何工作流。
+
+可以从内置的**词典**和**改进写作**模板开始，也可以从零开始构建操作。结构化结果还可以映射并保存到 Notebase，供日后学习。
 
 <div align="right">
 
@@ -135,11 +145,11 @@ Start with the built-in **Dictionary** and **Improve Writing** templates, or bui
 
 </div>
 
-### 🧠 [Flashcards & Spaced Repetition][docs-tutorial]
+### 🧠 [闪卡与间隔重复][docs-tutorial]
 
-Save vocabulary, definitions, example sentences, translations, and reading notes to Notebase, then turn them into flashcards with customizable card templates. Content you discover while reading becomes study material without interrupting your flow.
+将词汇、释义、例句、译文和阅读笔记保存到 Notebase，再通过可自定义的卡片模板把它们变成闪卡。阅读中发现的内容会直接成为学习材料，不会打断你的阅读节奏。
 
-Review due cards online and rate each one **Again**, **Hard**, **Good**, or **Easy**. Read Frog's spaced-repetition scheduler uses your feedback to decide when each card should appear again—right before you are likely to forget it.
+在线复习到期的卡片，并为每张卡片评分：**重来**、**困难**、**良好**或**简单**。Read Frog 的间隔重复调度器会根据你的反馈决定每张卡片何时再次出现——恰好在你可能忘记之前。
 
 <div align="right">
 
@@ -149,11 +159,13 @@ Review due cards online and rate each one **Again**, **Hard**, **Good**, or **Ea
 
 <!-- ![][image-feat-bilingual] -->
 
-### 🔄 [Bilingual / Translation Only][docs-tutorial]
+<a id="-bilingual--translation-only"></a>
 
-Switch seamlessly between two translation display modes. **Bilingual mode** shows the original text alongside its translation, perfect for learning and comparison. **Translation-only mode** replaces the original text entirely for a cleaner reading experience.
+### 🔄 [双语对照 / 仅译文][docs-tutorial]
 
-The extension automatically re-translates all visible content when you switch modes while translation is active, ensuring a smooth transition without needing to refresh the page.
+在两种翻译显示模式之间无缝切换。**双语模式**将原文与译文并排显示，非常适合学习和对照。**仅译文模式**会完全替换原文，带来更清爽的阅读体验。
+
+在翻译开启状态下切换模式时，扩展会自动重新翻译所有可见内容，确保平滑过渡，无需刷新页面。
 
 <div align="right">
 
@@ -163,11 +175,13 @@ The extension automatically re-translates all visible content when you switch mo
 
 <!-- ![][image-feat-selection] -->
 
-### ✨ [Selection Translation][docs-tutorial]
+<a id="-selection-translation"></a>
 
-Select any text on a webpage to reveal a smart toolbar with powerful options. **Translate** streams the translation in real-time. **Explain** provides detailed explanations tailored to your language level. **Speak** reads the text aloud using text-to-speech.
+### ✨ [划词翻译][docs-tutorial]
 
-The toolbar intelligently positions itself to stay within the viewport, supports drag interactions, and works across all websites. Perfect for quick lookups while reading.
+在网页上选中任意文本，即可弹出带有强大选项的智能工具栏。**翻译**会实时流式输出译文。**解释**会根据你的语言水平提供详细讲解。**朗读**会通过文字转语音把文本读出来。
+
+工具栏会智能定位，始终保持在可视区域内，支持拖动，并适用于所有网站。非常适合阅读时快速查询。
 
 <div align="right">
 
@@ -177,11 +191,13 @@ The toolbar intelligently positions itself to stay within the viewport, supports
 
 <!-- ![][image-feat-context] -->
 
-### 🧠 [Context-Aware Translation][docs-tutorial]
+<a id="-context-aware-translation"></a>
 
-Enable AI to understand the full context of what you're reading. When activated, Read Frog extracts the page title and a concise Markdown version of the page content, providing this context to the AI for more accurate, contextually-appropriate translations.
+### 🧠 [上下文感知翻译][docs-tutorial]
 
-This means technical terms get translated correctly within their domain, literary expressions maintain their nuance, and ambiguous phrases are interpreted based on the surrounding content rather than in isolation.
+让 AI 理解你所阅读内容的完整上下文。启用后，Read Frog 会提取页面标题和页面内容的精简 Markdown 版本，并将这些上下文提供给 AI，从而得到更准确、更贴合语境的翻译。
+
+这意味着专业术语能在其所属领域内被正确翻译，文学表达能保留其韵味，含义模糊的短语也会结合上下文而非孤立地进行理解。
 
 <div align="right">
 
@@ -191,9 +207,11 @@ This means technical terms get translated correctly within their domain, literar
 
 <!-- ![][image-feat-subtitle] -->
 
-### 🎬 [Subtitle Translation][docs-tutorial]
+<a id="-subtitle-translation"></a>
 
-Translate YouTube subtitles directly in the video player. Watch foreign language content with translations displayed alongside the original subtitles, making video content accessible for language learning.
+### 🎬 [字幕翻译][docs-tutorial]
+
+直接在视频播放器中翻译 YouTube 字幕。观看外语内容时，译文会与原字幕一同显示，让视频内容也能用于语言学习。
 
 <div align="right">
 
@@ -203,11 +221,13 @@ Translate YouTube subtitles directly in the video player. Watch foreign language
 
 <!-- ![][image-feat-tts] -->
 
-### 🔊 [Text-to-Speech (TTS)][docs-tutorial]
+<a id="-text-to-speech-tts"></a>
 
-Listen to any selected text with high-quality AI voices. Powered by **Edge TTS** — completely free, with 150+ voices across 80+ languages including Chinese, English, Japanese, Korean, and many more. Adjust rate, pitch, and volume to your preference.
+### 🔊 [文字转语音（TTS）][docs-tutorial]
 
-Automatic language detection (basic or LLM-powered) with per-language voice mapping ensures the right voice for every language. Smart sentence-aware chunking handles long text by splitting at natural boundaries and prefetching the next chunk for seamless playback. Perfect for pronunciation practice and auditory learning.
+用高质量的 AI 语音收听任意选中的文本。由 **Edge TTS** 驱动——完全免费，提供覆盖 80 多种语言（包括中文、英语、日语、韩语等）的 150 多种声音。可根据喜好调整语速、音调和音量。
+
+自动语言检测（基础模式或 LLM 驱动）配合按语言的声音映射，确保每种语言都使用合适的声音。智能的按句分段会在自然边界处拆分长文本，并预取下一段，实现无缝播放。非常适合练习发音和听力学习。
 
 <div align="right">
 
@@ -217,11 +237,13 @@ Automatic language detection (basic or LLM-powered) with per-language voice mapp
 
 <!-- ![][image-feat-batch] -->
 
-### 📦 [Batch Requests][docs-tutorial]
+<a id="-batch-requests"></a>
 
-Save up to 70% on API costs with intelligent request batching. Read Frog groups multiple translation requests into single API calls, reducing overhead and token usage while maintaining translation quality.
+### 📦 [批量请求][docs-tutorial]
 
-The system includes smart retry logic with exponential backoff and automatic fallback to individual requests if batch processing fails. All handled transparently in the background.
+通过智能请求批处理，最多可节省 70% 的 API 费用。Read Frog 会将多个翻译请求合并为一次 API 调用，在保证翻译质量的同时减少开销和 token 用量。
+
+系统内置带指数退避的智能重试机制，批处理失败时会自动回退为逐个请求。这一切都在后台透明完成。
 
 <div align="right">
 
@@ -231,11 +253,13 @@ The system includes smart retry logic with exponential backoff and automatic fal
 
 <!-- ![][image-feat-providers] -->
 
-### 🤖 [20+ AI Providers][docs-tutorial]
+<a id="-20-ai-providers"></a>
 
-Connect to 20+ AI providers through Vercel AI SDK: OpenAI, DeepSeek, Anthropic Claude, Google Gemini, xAI Grok, Groq, Mistral, Ollama, and many more. Configure custom endpoints, API keys, and model settings for each provider.
+### 🤖 [20+ AI 服务商][docs-tutorial]
 
-Plus free translation options: Google Translate, Microsoft Translate, and DeepLX for cost-free basic translations.
+通过 Vercel AI SDK 连接 20 多家 AI 服务商：OpenAI、DeepSeek、Anthropic Claude、Google Gemini、xAI Grok、Groq、Mistral、Ollama 等。可为每家服务商配置自定义端点、API 密钥和模型设置。
+
+另有免费翻译选项：Google 翻译、Microsoft 翻译和 DeepLX，可零成本进行基础翻译。
 
 <div align="right">
 
@@ -243,32 +267,36 @@ Plus free translation options: Google Translate, Microsoft Translate, and DeepLX
 
 </div>
 
-## 🤝 Contribute
+<a id="-contribute"></a>
 
-Contributions of all types are more than welcome.
+## 🤝 参与贡献
 
-1. Promote Read Frog to your friends and family.
-2. Report [issues][issues-link] and feedback.
-3. Contribute code.
+非常欢迎各种形式的贡献。
 
-### Contribute Code
+1. 向你的亲朋好友推荐 Read Frog。
+2. 报告[问题][issues-link]和提供反馈。
+3. 贡献代码。
 
-Project Structure: [DeepWiki](https://deepwiki.com/mengxi-ream/read-frog)
+<a id="contribute-code"></a>
 
-Ask AI to understand the project: [Dosu](https://app.dosu.dev/29569286-71ba-47dd-b038-c7ab1b9d0df7/documents)
+### 贡献代码
 
-Check out the [Contribution Guide](https://readfrog.app/en/docs/code-contribution/contribution-guide) for more details.
+项目结构：[DeepWiki](https://deepwiki.com/mengxi-ream/read-frog)
 
-ReadFrog is dual-licensed under GPLv3 and a commercial license.
+借助 AI 了解项目：[Dosu](https://app.dosu.dev/29569286-71ba-47dd-b038-c7ab1b9d0df7/documents)
 
-See [CONTRIBUTING.md](./CONTRIBUTING.md) for contributor licensing terms.
+更多详情请查看[贡献指南](https://readfrog.app/en/docs/code-contribution/contribution-guide)。
+
+ReadFrog 采用 GPLv3 和商业许可证双重授权。
+
+贡献者授权条款请参阅 [CONTRIBUTING.md](./CONTRIBUTING.md)。
 
 <a href="https://github.com/mengxi-ream/read-frog/graphs/contributors">
   <table>
     <tr>
       <th colspan="2">
         <br>
-        <img src="https://contrib.rocks/image?repo=mengxi-ream/read-frog" alt="Read Frog contributors"><br>
+        <img src="https://contrib.rocks/image?repo=mengxi-ream/read-frog" alt="Read Frog 贡献者"><br>
         <br>
       </th>
     </tr>
@@ -295,9 +323,11 @@ See [CONTRIBUTING.md](./CONTRIBUTING.md) for contributor licensing terms.
 
 </div>
 
-## 📜 Commercial License Grant
+<a id="-commercial-license-grant"></a>
 
-<img src="assets/tabbit.avif" alt="Tabbit" height="20" /> **Meituan Tabbit Browser Team**: Free license (at no cost) for closed-source commercial use, limited to v1.21.3 and earlier versions (commit [`724863f`](https://github.com/mengxi-ream/read-frog/commit/724863fdbc2d777766cada6c111235534ee03ca0)). Granted on March 3, 2026, 9:00 AM (Vancouver Time, UTC-8).
+## 📜 商业许可授权
+
+<img src="assets/tabbit.avif" alt="Tabbit" height="20" /> **美团 Tabbit 浏览器团队**：免费（零费用）授权用于闭源商业用途，仅限 v1.21.3 及更早版本（提交 [`724863f`](https://github.com/mengxi-ream/read-frog/commit/724863fdbc2d777766cada6c111235534ee03ca0)）。授权时间为 2026 年 3 月 3 日上午 9:00（温哥华时间，UTC-8）。
 
 <div align="right">
 
@@ -305,9 +335,11 @@ See [CONTRIBUTING.md](./CONTRIBUTING.md) for contributor licensing terms.
 
 </div>
 
-## ❤️ Sponsors
+<a id="️-sponsors"></a>
 
-Every donation helps us build a better language learning experience. Thank you for supporting our mission!
+## ❤️ 赞助者
+
+每一笔捐助都能帮助我们打造更好的语言学习体验。感谢你对我们使命的支持！
 
 [![Sponsors][sponsor-image]][sponsor-link]
 
